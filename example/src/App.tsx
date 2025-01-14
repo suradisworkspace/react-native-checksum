@@ -1,12 +1,12 @@
 import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-checksum';
+import RNChecksum from 'react-native-checksum';
 
-const result = multiply(3, 7);
+const bundleChecksum = RNChecksum.getBundleChecksum();
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>bundleChecksum: {bundleChecksum}</Text>
     </View>
   );
 }
