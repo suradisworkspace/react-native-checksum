@@ -59,6 +59,6 @@ class ChecksumModule(val reactContext: ReactApplicationContext) :
   }
 
   companion object {
-    const val NAME = "RNChecksum"
+    const val NAME = "Checksum"
   }
 }

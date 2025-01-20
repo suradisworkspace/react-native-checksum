@@ -6,4 +6,4 @@ export interface Spec extends TurboModule {
   getChecksumFile(filePath: string): string;
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>('RNChecksum');
+export default TurboModuleRegistry.getEnforcing<Spec>('Checksum');
